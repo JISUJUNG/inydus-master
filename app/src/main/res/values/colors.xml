@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00B0F0</color>
+    <color name="colorSub">#ffc611</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="intro">#b47828</color>
+
+    <!--기본색-->
+    <color name="grayColor">#eeeeef</color>
+    <color name="grayTextColor">#66655a</color>
+    <color name="grayClickedColor">#c4c4c4</color>
+    <color name="grayDisabledColor">#96d2d0cf</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="blackColor">#000000</color>
+
+    <!--EditText-->
+    <color name="HintColor">#999999</color>
+
+    <!--프로필 관련-->
+    <color name="BasicTextColor">#9e9e9f</color>
+    <color name="lineColor">#fbc02d</color>
+    <color name="ProfilelineColor">#d5d5d7</color>
+    <color name="halfTransparent">#66ffffff</color>
+
+    <color name="selectedDay">#0000dd</color>
+</resources>

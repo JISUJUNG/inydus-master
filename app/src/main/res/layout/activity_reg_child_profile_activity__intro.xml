@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inydus.inydus.register.register_profile.parent.view.RegChildProfileActivity_Intro"
+    android:background="@color/intro"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/whiteColor"
+        android:text="@string/reg_child_profile_intro"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_next_regCP_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_child_profile_intro_btn"
+        android:background="@color/halfTransparent"/>
+
+</LinearLayout>

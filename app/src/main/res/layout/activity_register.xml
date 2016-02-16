@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/register_horizontal_margin"
+    android:paddingLeft="@dimen/register_horizontal_margin"
+    tools:context=".register.register.view.RegisterActivity"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/register_vertical_spacing"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_border"
+        android:gravity="center_vertical"
+        android:padding="@dimen/register_box_spacing">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/editName_reg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColorHint="@color/HintColor"
+            android:textSize="@dimen/register_text_size"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/register_vertical_spacing"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_border"
+            android:layout_weight="1"
+            android:padding="@dimen/register_box_spacing">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" />
+
+            <EditText
+                android:id="@+id/editEmail_reg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/edit_email"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColorHint="@color/HintColor"
+                android:textSize="@dimen/register_text_size" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDuplication"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_border"
+            android:layout_marginLeft="@dimen/register_btn_spacing"
+            android:textColor="@color/whiteColor"
+            android:text="@string/btn_duplication_test" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/register_vertical_spacing"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_border"
+        android:gravity="center_vertical"
+        android:padding="@dimen/register_box_spacing">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/editPW_reg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/edit_password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColorHint="@color/HintColor"
+            android:textSize="@dimen/register_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/register_vertical_spacing"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_border"
+        android:gravity="center_vertical"
+        android:padding="@dimen/register_box_spacing">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <EditText
+            android:id="@+id/editPW_test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/edit_password_test"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColorHint="@color/HintColor"
+            android:textSize="@dimen/register_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/register_vertical_spacing"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_border"
+            android:layout_weight="1"
+            android:padding="@dimen/register_box_spacing">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" />
+
+            <EditText
+                android:id="@+id/editPhoneNum_reg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/edit_phoneNum"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColorHint="@color/HintColor"
+                android:textSize="@dimen/register_text_size" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnVerification"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_border"
+            android:textColor="@color/whiteColor"
+            android:layout_marginLeft="@dimen/register_btn_spacing"
+            android:text="@string/btn_send_verification_num" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/register_vertical_spacing"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_border"
+            android:padding="@dimen/register_box_spacing">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" />
+
+            <EditText
+                android:id="@+id/editVerification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/edit_verification_num"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColorHint="@color/HintColor"
+                android:textSize="@dimen/register_text_size" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/register_info_text_spacing"
+        android:layout_marginLeft="@dimen/register_box_spacing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_about_verification_num"
+        android:textSize="@dimen/register_text_size_info"
+        android:id="@+id/textView"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:id="@+id/btnRegister_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/register_btn_submit_margin_top"
+        android:paddingLeft="@dimen/register_btn_submit_padding"
+        android:paddingRight="@dimen/register_btn_submit_padding"
+        android:background="@drawable/btn_border"
+        android:textColor="@color/whiteColor"
+        android:text="@string/btn_register_user" />
+
+    <Button
+        android:id="@+id/btnNext_reg_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음으로"/>
+
+</LinearLayout>

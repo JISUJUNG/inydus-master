@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sopt.inydus_demo.findSitter.ConditionActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_condition"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/gender"
+            android:textSize="@dimen/basic_item_name_text_size" />
+
+        <RadioGroup
+            android:id="@+id/radioGender_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/basic_item_name_margin"
+            android:background="@drawable/basic_border"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioMale_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/radioFemale_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female" />
+
+            <RadioButton
+                android:id="@+id/radioNoMatter_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_matter" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/basic_vertical_spacing"
+            android:gravity="center"
+            android:text="@string/able_day"
+            android:textSize="@dimen/profile_item_name_text_size" />
+
+        <LinearLayout
+            android:id="@+id/layout_day_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/basic_item_name_margin"
+            android:background="@drawable/basic_border"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/btn_mon_condition"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_day_mon_selector"
+                android:textOff="월"
+                android:textOn="월" />
+
+            <ToggleButton
+                android:id="@+id/btn_tue_condition"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_day_mon_selector"
+                android:textOff="월"
+                android:textOn="월" />
+
+            <ToggleButton
+                android:id="@+id/btn_wed_condition"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_day_mon_selector"
+                android:textOff="월"
+                android:textOn="월" />
+
+            <ToggleButton
+                android:id="@+id/btn_thu_condition"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_day_mon_selector"
+                android:textOff="월"
+                android:textOn="월" />
+
+            <ToggleButton
+                android:id="@+id/btn_fri_condition"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_day_mon_selector"
+                android:textOff="월"
+                android:textOn="월" />
+
+            <ToggleButton
+                android:id="@+id/btn_sat_condition"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_day_mon_selector"
+                android:textOff="월"
+                android:textOn="월" />
+
+            <ToggleButton
+                android:id="@+id/btn_sun_condition"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_day_mon_selector"
+                android:textOff="월"
+                android:textOn="월" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/basic_vertical_spacing"
+            android:gravity="center"
+            android:text="@string/able_location"
+            android:textSize="@dimen/profile_item_name_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/basic_item_name_margin"
+            android:background="@drawable/basic_border"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_location_condition"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/register_box_spacing">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtBtn_location_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/YellowButton"
+                android:text="@string/able_location" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomCirclePageIndicator">
+        <item name="fillColor">@android:color/black</item>
+        <item name="unselectedColor">@android:color/white</item>
+        <item name="centered">true</item>
+        <item name="strokeColor">@null</item>
+        <item name="pageColor">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTitle">
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:textSize">@dimen/toolbar_title</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ToolbarItem">
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:textSize">@dimen/toolbar_item</item>
+        <item name="android:layout_gravity">end|center_vertical</item>
+        <item name="android:layout_marginRight">@dimen/toolbar_item_margin_right</item>
+    </style>
+
+    <style name="ItemName">
+        <item name="android:textColor">@color/grayTextColor</item>
+        <item name="android:textSize">@dimen/basic_item_name_text_size</item>
+        <item name="android:layout_margin">@dimen/basic_item_name_margin</item>
+    </style>
+
+    <style name="ItemContent">
+        <item name="android:textColor">@color/BasicTextColor</item>
+        <item name="android:textSize">@dimen/basic_item_content_text_size</item>
+        <item name="android:textColorHint">@color/HintColor</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ItemBox">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/basic_border</item>
+        <item name="android:padding">@dimen/basic_box_padding</item>
+        <item name="android:textColor">@color/BasicTextColor</item>
+        <item name="android:textSize">@dimen/basic_item_content_text_size</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ProfileImage">
+        <item name="android:layout_width">@dimen/profile_img_size</item>
+        <item name="android:layout_height">@dimen/profile_img_size</item>
+        <item name="android:layout_margin">@dimen/profile_img_margin</item>
+    </style>
+
+
+    <style name="YellowButton">
+        <item name="android:background">@drawable/btn_border</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:textSize">@dimen/basic_item_content_text_size</item>
+        <item name="android:padding">@dimen/basic_box_padding</item>
+    </style>
+
+    <style name="SettingItem">
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/setting_btn_selector</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/setting_item_padding_left</item>
+        <item name="android:paddingRight">@dimen/setting_item_padding_right</item>
+        <item name="android:paddingBottom">@dimen/setting_item_padding_above_below</item>
+        <item name="android:paddingTop">@dimen/setting_item_padding_above_below</item>
+    </style>
+
+    <style name="SettingItemContent">
+        <item name="android:textColor">@color/blackColor</item>
+        <item name="android:textSize">@dimen/setting_item_text_size</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="SettingItemName">
+        <item name="android:textColor">@color/grayTextColor</item>
+        <item name="android:textSize">@dimen/setting_item_name_text_size</item>
+        <item name="android:layout_marginBottom">@dimen/basic_item_name_margin</item>
+        <item name="android:layout_marginLeft">@dimen/setting_item_name_text_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/setting_vertical_spacing</item>
+    </style>
+
+</resources>

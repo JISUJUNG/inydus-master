@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ToggleButton
+            android:id="@+id/txtMon_time_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle_border"
+            android:gravity="center"
+            android:textColor="@drawable/text_color_selector"
+            android:textOff="월"
+            android:textOn="월"
+            android:textSize="@dimen/profile_normal_text_size" />
+
+        <ToggleButton
+            android:id="@+id/txtTue_time_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle_border"
+            android:gravity="center"
+            android:textColor="@drawable/text_color_selector"
+            android:textOff="화"
+            android:textOn="화"
+            android:textSize="@dimen/profile_normal_text_size" />
+
+        <ToggleButton
+            android:id="@+id/txtWed_time_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle_border"
+            android:gravity="center"
+            android:textColor="@drawable/text_color_selector"
+            android:textOff="수"
+            android:textOn="수"
+            android:textSize="@dimen/profile_normal_text_size" />
+
+        <ToggleButton
+            android:id="@+id/txtThu_time_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle_border"
+            android:gravity="center"
+            android:textColor="@drawable/text_color_selector"
+            android:textOff="목"
+            android:textOn="목"
+            android:textSize="@dimen/profile_normal_text_size" />
+
+        <ToggleButton
+            android:id="@+id/txtFri_time_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="@dimen/profile_normal_text_size"
+            android:background="@drawable/circle_border"
+            android:textOn="금"
+            android:textOff="금" />
+
+        <ToggleButton
+            android:id="@+id/txtSat_time_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="@dimen/profile_normal_text_size"
+            android:background="@drawable/circle_border"
+            android:textOn="토"
+            android:textOff="토" />
+
+        <ToggleButton
+            android:id="@+id/txtSun_time_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@drawable/text_color_selector"
+            android:textSize="@dimen/profile_normal_text_size"
+            android:background="@drawable/circle_border"
+            android:textOn="일"
+            android:textOff="일" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/btnStart_time_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_time_selector"
+            android:textOn="시작"
+            android:textOff="시작"
+            android:textColor="@drawable/btn_text_color_selector"
+            android:checked="true"/>
+
+        <ToggleButton
+            android:id="@+id/btnEnd_time_dialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_time_selector"
+            android:textOn="종료"
+            android:textOff="종료"
+            android:textColor="@drawable/btn_text_color_selector"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오후 2시 00분 ~ 오후 3시 00분(1시간)"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/txtTime_time_dialog" />
+
+    <TimePicker
+        android:id="@+id/timePicker_time_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"/>
+
+
+</LinearLayout>

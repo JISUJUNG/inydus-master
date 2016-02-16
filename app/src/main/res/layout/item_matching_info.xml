@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SettingItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgProfile_matchingInfoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/profile_img_margin"
+        android:src="@mipmap/noldam_icon" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtName_matchingInfoItem"
+            style="@style/SettingItemContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이경욱 놀이친구"/>
+
+        <TextView
+            android:id="@+id/txtPhone_matchingInfoItem"
+            style="@style/SettingItemContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="010-9816-5916" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_margin="@dimen/profile_img_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/stat_sys_phone_call"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow" />
+
+
+</LinearLayout>

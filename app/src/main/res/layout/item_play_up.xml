@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/SettingItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/ProfileImage"
+            android:id="@+id/imgProfile_playUp"
+            android:src="@mipmap/noldam_icon" />
+
+        <TextView
+            android:id="@+id/txtName_playUp"
+            style="@style/SettingItemContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="이경욱 놀이친구" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/noldam_logo" />
+
+        <TextView
+            android:id="@+id/txtPlayTime_playUp"
+            style="@style/SettingItemContent"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:gravity="end" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/grayBackground_playUp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grayDisabledColor"
+        android:visibility="gone"/>
+
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/intro"
+    android:orientation="vertical"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/reg_sitter_profile_intro"
+        android:textColor="@color/whiteColor" />
+
+    <Button
+        android:id="@+id/btn_next_regSP_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/halfTransparent"
+        android:text="@string/reg_sitter_profile_intro_btn" />
+
+</LinearLayout>
